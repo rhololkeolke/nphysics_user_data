@@ -1,7 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+use nalgebra as na;
+
+pub trait HasColor {
+    fn color(&self) -> na::Point3<f32>;
 }
