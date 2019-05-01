@@ -1,5 +1,5 @@
 [package]
-name = "nphysics_user_data_traits"
+name = "nphysics_user_data"
 version = "0.1.0"
 authors = ["Devin Schwab <digidevin@gmail.com>"]
 edition = "2018"
